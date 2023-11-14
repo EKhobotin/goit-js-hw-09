@@ -21,7 +21,7 @@ function onStartClick(event) {
     timerId = setInterval(() => {
         document.body.style.backgroundColor = getRandomHexColor();
     }, 1000);      
-    // console.dir(event.target.disabled);
+  
 }
 function onStopClick() {
     // вимикаємо таймер зміни кольору
